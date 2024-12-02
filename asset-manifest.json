@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/academic-earth/static/css/main.83b2ae09.css",
+    "main.js": "/academic-earth/static/js/main.19e708ef.js",
+    "static/js/453.b3979b0a.chunk.js": "/academic-earth/static/js/453.b3979b0a.chunk.js",
+    "index.html": "/academic-earth/index.html",
+    "main.83b2ae09.css.map": "/academic-earth/static/css/main.83b2ae09.css.map",
+    "main.19e708ef.js.map": "/academic-earth/static/js/main.19e708ef.js.map",
+    "453.b3979b0a.chunk.js.map": "/academic-earth/static/js/453.b3979b0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83b2ae09.css",
+    "static/js/main.19e708ef.js"
+  ]
+}
