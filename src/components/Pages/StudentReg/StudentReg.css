@@ -1,0 +1,96 @@
+.student-registrations-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.registrations-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registrations-header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.registrations-header p {
+  color: #fff;
+}
+
+.registration-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-form button {
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.registration-form button:hover {
+  background: #218838;
+}
+
+.students-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.students-list th,
+.students-list td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.students-list th {
+  font-weight: bold;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  color: white;
+  background: #dc3545;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-button:hover {
+  background: #c82333;
+}
+
+.no-registrations-message {
+  text-align: center;
+ animation-name: anim1;
+  font-size: 1.2rem;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes anim1{
+  from{
+    color: red;
+  }
+  to{
+  color: #999;
+  }
+}
